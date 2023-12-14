@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`render span element with default content 1`] = `
+"<h1>Some title</h1>
+<pre><span class="language">txt</span><code>some text
+</code></pre>
+<p>Some block of text</p>"
+`;
+
+exports[`render span element with the content of js 1`] = `
+"<h1>Some title</h1>
+<pre><span class="language">js</span><code class="language-js">let a = 1;
+
+console.log(a);
+</code></pre>
+<p>Some block of text</p>"
+`;
