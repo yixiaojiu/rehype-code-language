@@ -1,7 +1,7 @@
 {
   "name": "rehype-code-language",
   "version": "0.0.1",
-  "description": "",
+  "description": "remark plugin to add a language span element to code blocks",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -10,6 +10,11 @@
     "README.md",
     "package.json"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yixiaojiu/rehype-code-language"
+  },
+  "homepage": "https://github.com/yixiaojiu/rehype-code-language#README",
   "scripts": {
     "build": "tsup src/index.ts --format esm --dts --clean",
     "dev": "vitest",
@@ -20,7 +25,7 @@
     "rehype-plugin",
     "code-language"
   ],
-  "author": "yixiaojiu",
+  "author": "yixiaojiu <yi_xiao_jiu@qq.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/hast": "^3.0.3",
